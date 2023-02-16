@@ -6,14 +6,13 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #0D0D0D;
     color: #8C8C8B;
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,4 +74,14 @@ body {
 .apresentacao__links__link:hover {
     background-color: #272727;
     transform: scale(1.1);
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
