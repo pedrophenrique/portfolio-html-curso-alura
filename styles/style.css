@@ -103,3 +103,42 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+.curriculum {
+    padding: 5% 0 0 0;
+    display: flex;
+}
+
+.curriculum__sidebar {
+    background-color: #22D4FD;
+    color: #F6F6F6;
+    width: 176px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.curriculum__sidebar__img {
+    width: 111px;
+}
+
+.curriculum__sidebar__about {
+    text-align: center;
+}
+
+.curriculum__sidebar__about__titulo {
+    font-family:'Krona One', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 24px
+}
+
+.curriculum__sidebar__about__texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 0 24px;
+}
+
+
