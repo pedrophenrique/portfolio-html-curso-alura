@@ -121,8 +121,9 @@ body {
 }
 
 .curriculum__sidebar__img {
-    margin: auto;
+    margin: 0 auto;
     width: 111px;
+    border-radius: 90px;
 }
 
 .curriculum__sidebar__about {
@@ -133,7 +134,7 @@ body {
     font-family:'Krona One', sans-serif;
     font-size: 28px;
     font-weight: 600;
-    padding: 0 24px 24px 24px
+    padding: 12px;
 }
 
 .curriculum__sidebar__about__texto {
@@ -143,18 +144,20 @@ body {
 }
 
 .curriculum__sidebar__informacoes__titulo{
-    text-align: center;
     font-family:'Krona One', sans-serif;
     font-size: 28px;
     font-weight: 600;
-    padding: 24px
+    text-align: center;
+    padding: 12px;
 }
 
 .curriculum__sidebar__informacoes__lista {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    padding: 0 8px;
-    line-height: 20px;
+    gap: 8px;
 }
 
 
