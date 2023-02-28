@@ -4,6 +4,10 @@
     --cor-primaria: #0D0D0D;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Krona One', sans-serif;
 }
 
 * {
@@ -13,8 +17,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: #0D0D0D;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -27,8 +31,8 @@ body {
 }
 
 .cabecalho__menu__link {
-    color: #22D4FD;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
@@ -51,16 +55,16 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .destaque-titulo {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .apresentacao__links {
@@ -72,7 +76,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -82,30 +86,30 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
     font-weight: 600;
     transition: 1s all;
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
     transform: scale(1.1);
 }
 
 .rodape {
-    background-color: #22D4FD;
-    color: #000000;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     text-align: center;
     padding: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 400;
 }
@@ -116,8 +120,8 @@ body {
 }
 
 .curriculum__sidebar {
-    background-color: #22D4FD;
-    color: #F6F6F6;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     width: 176px;
     padding: 1%;
     display: flex;
@@ -137,20 +141,20 @@ body {
 }
 
 .curriculum__sidebar__about__titulo {
-    font-family:'Krona One', sans-serif;
+    font-family:var(--fonte-secundaria);
     font-size: 28px;
     font-weight: 600;
     padding: 12px;
 }
 
 .curriculum__sidebar__about__texto {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-primaria);
     font-size: 16px;
     padding: 0 24px;
 }
 
 .curriculum__sidebar__informacoes__titulo{
-    font-family:'Krona One', sans-serif;
+    font-family:var(--fonte-secundaria);
     font-size: 28px;
     font-weight: 600;
     text-align: center;
@@ -161,7 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-primaria);
     font-size: 14px;
     gap: 8px;
 }
@@ -176,8 +180,8 @@ body {
 }
 
 .curriculum__experiences__titulo {
-    color: #F6F6F6;
-    font-family: 'Krona One', sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
     font-size: 36px;
     font-weight: 600;
     text-align: center;
@@ -185,15 +189,15 @@ body {
 }
 
 .curriculum__experiences__subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
     padding: 16px 0;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
 }
 
 .curriculum__experiences__lista {
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -201,11 +205,11 @@ body {
 
 .curriculum__experiences__lista__itens {
     list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-primaria);
     font-size: 16px;
 }
 
 .destaque-estabelecimento {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
